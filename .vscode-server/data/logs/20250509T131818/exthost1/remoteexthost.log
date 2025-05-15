@@ -1,0 +1,12 @@
+2025-05-09 13:18:20.266 [info] Extension host with pid 107297 started
+2025-05-09 13:18:20.348 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-09 13:18:20.525 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-09 13:18:20.525 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-09 13:18:20.845 [warning] Using default string since no string found in i18n bundle that has the key: Log level: {0}
+2025-05-09 13:18:20.853 [warning] Using default string since no string found in i18n bundle that has the key: Validating found git in: "{0}"
+2025-05-09 13:18:20.911 [warning] Using default string since no string found in i18n bundle that has the key: Using git "{0}" from "{1}"
+2025-05-09 13:18:20.926 [info] Eager extensions activated
+2025-05-09 13:18:20.927 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-09 13:18:20.927 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-09 13:18:29.429 [info] Extension host terminating: received terminate message from renderer
+2025-05-09 13:18:29.452 [info] Extension host with pid 107297 exiting with code 0

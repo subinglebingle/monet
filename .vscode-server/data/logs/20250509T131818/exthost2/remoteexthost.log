@@ -1,0 +1,15 @@
+2025-05-09 13:18:49.531 [info] Extension host with pid 107453 started
+2025-05-09 13:18:49.541 [info] Lock '/home/subin/.vscode-server/data/User/workspaceStorage/3e899627b7165a281a80ed0465913daa/vscode.lock': Lock acquired.
+2025-05-09 13:18:49.731 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-09 13:18:49.923 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-09 13:18:49.923 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-09 13:18:50.327 [warning] Using default string since no string found in i18n bundle that has the key: Log level: {0}
+2025-05-09 13:18:50.336 [warning] Using default string since no string found in i18n bundle that has the key: Validating found git in: "{0}"
+2025-05-09 13:18:50.407 [warning] Using default string since no string found in i18n bundle that has the key: Using git "{0}" from "{1}"
+2025-05-09 13:18:50.427 [info] Eager extensions activated
+2025-05-09 13:18:50.427 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-09 13:18:50.428 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-09 13:18:54.690 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-09 16:13:09.145 [info] Extension host terminating: received terminate message from renderer
+2025-05-09 16:13:09.146 [info] Lock '/home/subin/.vscode-server/data/User/workspaceStorage/3e899627b7165a281a80ed0465913daa/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-05-09 16:13:09.173 [info] Extension host with pid 107453 exiting with code 0

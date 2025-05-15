@@ -1,0 +1,15 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "remote.SSH.remotePlatform": {
+        "166.104.35.38": "linux",
+        "192.168.0.238": "linux",
+        "166.104.35.40": "linux",
+        "192.168.0.53": "linux"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "none",
+    "update.showReleaseNotes": false
+}

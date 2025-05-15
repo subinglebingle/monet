@@ -1,0 +1,959 @@
+2025-05-13 16:14:42.089 [info] Log level: Info
+2025-05-13 16:14:42.089 [info] Validating found git in: "git"
+2025-05-13 16:14:42.089 [info] Using git "2.25.1" from "git"
+2025-05-13 16:14:42.089 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-13 16:14:42.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-13 16:14:42.089 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-13 16:14:42.089 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-13 16:14:42.089 [info] Open repository: /home/subin/unet/monet
+2025-05-13 16:14:42.089 [info] > git config --get commit.template [5ms]
+2025-05-13 16:14:42.089 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-13 16:14:42.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-13 16:14:42.089 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-05-13 16:14:42.089 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:14:42.089 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-13 16:14:42.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-13 16:14:42.089 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:14:42.089 [info] > git status -z -uall [7ms]
+2025-05-13 16:14:42.089 [info] > git rev-parse --show-toplevel [21ms]
+2025-05-13 16:14:42.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-13 16:14:42.089 [info] > git config --get commit.template [6ms]
+2025-05-13 16:14:42.089 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 16:14:42.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-13 16:14:42.089 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-05-13 16:14:42.089 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:14:42.089 [info] > git rev-parse --show-toplevel [8ms]
+2025-05-13 16:14:42.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-13 16:14:42.089 [info] > git rev-parse refs/remotes/origin/master [45ms]
+2025-05-13 16:14:42.094 [info] > git status -z -uall [6ms]
+2025-05-13 16:14:42.602 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-13 16:14:43.746 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-13 16:14:43.823 [info] > git show --textconv :main.py [7ms]
+2025-05-13 16:14:43.825 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [2ms]
+2025-05-13 16:14:43.830 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [1ms]
+2025-05-13 16:15:27.150 [info] > git config --get commit.template [7ms]
+2025-05-13 16:15:27.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:15:27.155 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:15:27.156 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:15:27.166 [info] > git status -z -uall [5ms]
+2025-05-13 16:21:04.196 [info] > git config --get commit.template [5ms]
+2025-05-13 16:21:04.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:21:04.202 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:21:04.204 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:21:04.213 [info] > git status -z -uall [5ms]
+2025-05-13 16:21:09.233 [info] > git config --get commit.template [6ms]
+2025-05-13 16:21:09.233 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:21:09.239 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:21:09.241 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:21:09.249 [info] > git status -z -uall [4ms]
+2025-05-13 16:22:11.803 [info] > git config --get commit.template [5ms]
+2025-05-13 16:22:11.804 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:22:11.807 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:22:11.808 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:22:11.819 [info] > git status -z -uall [6ms]
+2025-05-13 16:22:15.381 [info] > git show --textconv :datasets.py [4ms]
+2025-05-13 16:22:15.382 [info] > git ls-files --stage -- /home/subin/unet/monet/datasets.py [2ms]
+2025-05-13 16:22:15.386 [info] > git cat-file -s 3ecd2b85df21ff7f8a63197ee16b515105e03f02 [1ms]
+2025-05-13 16:22:16.837 [info] > git config --get commit.template [6ms]
+2025-05-13 16:22:16.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:22:16.843 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:22:16.844 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:22:16.852 [info] > git status -z -uall [4ms]
+2025-05-13 16:22:36.665 [info] > git config --get commit.template [4ms]
+2025-05-13 16:22:36.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:22:36.669 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:22:36.670 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:22:36.678 [info] > git status -z -uall [4ms]
+2025-05-13 16:23:06.728 [info] > git config --get commit.template [4ms]
+2025-05-13 16:23:06.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:23:06.732 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:23:06.733 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:23:06.740 [info] > git status -z -uall [2ms]
+2025-05-13 16:23:36.707 [info] > git config --get commit.template [4ms]
+2025-05-13 16:23:36.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:23:36.711 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:23:36.712 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:23:36.718 [info] > git status -z -uall [3ms]
+2025-05-13 16:24:06.743 [info] > git config --get commit.template [6ms]
+2025-05-13 16:24:06.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 16:24:06.750 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:24:06.751 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:24:06.759 [info] > git status -z -uall [4ms]
+2025-05-13 16:24:36.749 [info] > git config --get commit.template [6ms]
+2025-05-13 16:24:36.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:24:36.755 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:24:36.756 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:24:36.765 [info] > git status -z -uall [5ms]
+2025-05-13 16:25:06.754 [info] > git config --get commit.template [6ms]
+2025-05-13 16:25:06.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 16:25:06.760 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:25:06.761 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:25:06.772 [info] > git status -z -uall [6ms]
+2025-05-13 16:25:36.285 [info] > git show --textconv :model.py [8ms]
+2025-05-13 16:25:36.286 [info] > git ls-files --stage -- /home/subin/unet/monet/model.py [2ms]
+2025-05-13 16:25:36.292 [info] > git cat-file -s 4314b07f574b1b2ac568a21d48050724bf8544c1 [1ms]
+2025-05-13 16:25:36.699 [info] > git config --get commit.template [7ms]
+2025-05-13 16:25:36.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 16:25:36.707 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:25:36.709 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:25:36.720 [info] > git status -z -uall [5ms]
+2025-05-13 16:25:47.689 [info] > git show --textconv :main.py [7ms]
+2025-05-13 16:25:47.691 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [1ms]
+2025-05-13 16:25:47.696 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [1ms]
+2025-05-13 16:26:06.168 [info] > git show --textconv :datasets.py [8ms]
+2025-05-13 16:26:06.169 [info] > git ls-files --stage -- /home/subin/unet/monet/datasets.py [1ms]
+2025-05-13 16:26:06.175 [info] > git cat-file -s 3ecd2b85df21ff7f8a63197ee16b515105e03f02 [1ms]
+2025-05-13 16:26:06.756 [info] > git config --get commit.template [5ms]
+2025-05-13 16:26:06.757 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:26:06.762 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:26:06.765 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:26:06.774 [info] > git status -z -uall [4ms]
+2025-05-13 16:26:20.658 [info] > git show --textconv :config.py [4ms]
+2025-05-13 16:26:20.659 [info] > git ls-files --stage -- /home/subin/unet/monet/config.py [1ms]
+2025-05-13 16:26:20.665 [info] > git cat-file -s 6fad2b8146241b3842a107280075da803b8c2fc6 [2ms]
+2025-05-13 16:26:36.761 [info] > git config --get commit.template [6ms]
+2025-05-13 16:26:36.762 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:26:36.766 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:26:36.767 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:26:36.774 [info] > git status -z -uall [3ms]
+2025-05-13 16:26:38.253 [info] > git show --textconv :model.py [8ms]
+2025-05-13 16:26:38.254 [info] > git ls-files --stage -- /home/subin/unet/monet/model.py [2ms]
+2025-05-13 16:26:38.260 [info] > git cat-file -s 4314b07f574b1b2ac568a21d48050724bf8544c1 [2ms]
+2025-05-13 16:27:06.767 [info] > git config --get commit.template [5ms]
+2025-05-13 16:27:06.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:27:06.772 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:27:06.773 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:27:06.784 [info] > git status -z -uall [6ms]
+2025-05-13 16:27:24.413 [info] > git show --textconv :main.py [7ms]
+2025-05-13 16:27:24.414 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [2ms]
+2025-05-13 16:27:24.421 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [2ms]
+2025-05-13 16:27:27.432 [info] > git show --textconv :model.py [8ms]
+2025-05-13 16:27:27.434 [info] > git ls-files --stage -- /home/subin/unet/monet/model.py [2ms]
+2025-05-13 16:27:27.441 [info] > git cat-file -s 4314b07f574b1b2ac568a21d48050724bf8544c1 [2ms]
+2025-05-13 16:27:28.451 [info] > git show --textconv :main.py [6ms]
+2025-05-13 16:27:28.452 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [1ms]
+2025-05-13 16:27:28.459 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [2ms]
+2025-05-13 16:27:29.195 [info] > git show --textconv :model.py [6ms]
+2025-05-13 16:27:29.196 [info] > git ls-files --stage -- /home/subin/unet/monet/model.py [2ms]
+2025-05-13 16:27:29.201 [info] > git cat-file -s 4314b07f574b1b2ac568a21d48050724bf8544c1 [1ms]
+2025-05-13 16:27:29.668 [info] > git show --textconv :main.py [7ms]
+2025-05-13 16:27:29.669 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [1ms]
+2025-05-13 16:27:29.676 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [2ms]
+2025-05-13 16:27:36.694 [info] > git config --get commit.template [7ms]
+2025-05-13 16:27:36.696 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 16:27:36.700 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:27:36.701 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:27:36.713 [info] > git status -z -uall [6ms]
+2025-05-13 16:28:31.081 [info] > git config --get commit.template [7ms]
+2025-05-13 16:28:31.082 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:28:31.087 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:28:31.089 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:28:31.098 [info] > git status -z -uall [3ms]
+2025-05-13 16:28:36.786 [info] > git config --get commit.template [7ms]
+2025-05-13 16:28:36.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-05-13 16:28:36.796 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:28:36.798 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:28:36.807 [info] > git status -z -uall [4ms]
+2025-05-13 16:28:36.950 [info] > git show --textconv :datasets.py [7ms]
+2025-05-13 16:28:36.951 [info] > git ls-files --stage -- /home/subin/unet/monet/datasets.py [2ms]
+2025-05-13 16:28:36.957 [info] > git cat-file -s 3ecd2b85df21ff7f8a63197ee16b515105e03f02 [1ms]
+2025-05-13 16:29:37.503 [info] > git config --get commit.template [4ms]
+2025-05-13 16:29:37.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:29:37.507 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:29:37.508 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:29:37.518 [info] > git status -z -uall [5ms]
+2025-05-13 16:29:42.535 [info] > git config --get commit.template [6ms]
+2025-05-13 16:29:42.536 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:29:42.541 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:29:42.542 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:29:42.555 [info] > git status -z -uall [4ms]
+2025-05-13 16:30:35.429 [info] > git config --get commit.template [7ms]
+2025-05-13 16:30:35.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:30:35.434 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:30:35.435 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:30:35.442 [info] > git status -z -uall [3ms]
+2025-05-13 16:34:30.333 [info] > git config --get commit.template [1ms]
+2025-05-13 16:34:30.340 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:34:30.344 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:34:30.345 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:34:30.352 [info] > git status -z -uall [3ms]
+2025-05-13 16:34:45.828 [info] > git config --get commit.template [5ms]
+2025-05-13 16:34:45.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:34:45.834 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:34:45.835 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:34:45.842 [info] > git status -z -uall [3ms]
+2025-05-13 16:34:45.925 [info] > git show --textconv :main.py [6ms]
+2025-05-13 16:34:45.926 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [1ms]
+2025-05-13 16:34:45.931 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [1ms]
+2025-05-13 16:34:50.860 [info] > git config --get commit.template [6ms]
+2025-05-13 16:34:50.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:34:50.866 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:34:50.868 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:34:50.876 [info] > git status -z -uall [4ms]
+2025-05-13 16:35:06.826 [info] > git config --get commit.template [6ms]
+2025-05-13 16:35:06.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:35:06.833 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:35:06.834 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:35:06.843 [info] > git status -z -uall [4ms]
+2025-05-13 16:35:10.042 [info] > git show --textconv :model.py [7ms]
+2025-05-13 16:35:10.043 [info] > git ls-files --stage -- /home/subin/unet/monet/model.py [2ms]
+2025-05-13 16:35:10.049 [info] > git cat-file -s 4314b07f574b1b2ac568a21d48050724bf8544c1 [1ms]
+2025-05-13 16:35:36.833 [info] > git config --get commit.template [8ms]
+2025-05-13 16:35:36.834 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:35:36.839 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:35:36.840 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:35:36.853 [info] > git status -z -uall [7ms]
+2025-05-13 16:36:06.835 [info] > git config --get commit.template [6ms]
+2025-05-13 16:36:06.836 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:36:06.842 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:36:06.843 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:36:06.851 [info] > git status -z -uall [3ms]
+2025-05-13 16:36:36.952 [info] > git config --get commit.template [7ms]
+2025-05-13 16:36:36.953 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:36:36.957 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:36:36.958 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:36:36.970 [info] > git status -z -uall [6ms]
+2025-05-13 16:37:06.843 [info] > git config --get commit.template [6ms]
+2025-05-13 16:37:06.845 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:37:06.849 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:37:06.850 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:37:06.858 [info] > git status -z -uall [4ms]
+2025-05-13 16:37:07.595 [info] > git show --textconv :datasets.py [6ms]
+2025-05-13 16:37:07.596 [info] > git ls-files --stage -- /home/subin/unet/monet/datasets.py [1ms]
+2025-05-13 16:37:07.604 [info] > git cat-file -s 3ecd2b85df21ff7f8a63197ee16b515105e03f02 [2ms]
+2025-05-13 16:37:36.739 [info] > git config --get commit.template [6ms]
+2025-05-13 16:37:36.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:37:36.746 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:37:36.748 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:37:36.757 [info] > git status -z -uall [5ms]
+2025-05-13 16:37:38.110 [info] > git show --textconv :main.py [9ms]
+2025-05-13 16:37:38.111 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [2ms]
+2025-05-13 16:37:38.118 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [2ms]
+2025-05-13 16:38:06.845 [info] > git config --get commit.template [6ms]
+2025-05-13 16:38:06.845 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:38:06.850 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:38:06.851 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2025-05-13 16:38:06.857 [info] > git status -z -uall [3ms]
+2025-05-13 16:38:36.852 [info] > git config --get commit.template [5ms]
+2025-05-13 16:38:36.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:38:36.858 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:38:36.859 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:38:36.867 [info] > git status -z -uall [4ms]
+2025-05-13 16:39:06.953 [info] > git config --get commit.template [1ms]
+2025-05-13 16:39:06.962 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 16:39:06.966 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:39:06.968 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:39:06.975 [info] > git status -z -uall [3ms]
+2025-05-13 16:41:03.935 [info] > git config --get commit.template [6ms]
+2025-05-13 16:41:03.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:41:03.943 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:41:03.945 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:41:03.956 [info] > git status -z -uall [6ms]
+2025-05-13 16:41:15.318 [info] > git config --get commit.template [6ms]
+2025-05-13 16:41:15.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:41:15.323 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:41:15.324 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:41:15.333 [info] > git status -z -uall [4ms]
+2025-05-13 16:41:36.774 [info] > git config --get commit.template [6ms]
+2025-05-13 16:41:36.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 16:41:36.780 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:41:36.781 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:41:36.788 [info] > git status -z -uall [3ms]
+2025-05-13 16:44:54.560 [info] > git config --get commit.template [7ms]
+2025-05-13 16:44:54.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:44:54.566 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:44:54.568 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:44:54.577 [info] > git status -z -uall [5ms]
+2025-05-13 16:45:03.117 [info] > git config --get commit.template [6ms]
+2025-05-13 16:45:03.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:45:03.123 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:45:03.124 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:45:03.134 [info] > git status -z -uall [5ms]
+2025-05-13 16:49:53.917 [info] > git config --get commit.template [5ms]
+2025-05-13 16:49:53.917 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 16:49:53.924 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:49:53.925 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:49:53.934 [info] > git status -z -uall [5ms]
+2025-05-13 16:49:58.950 [info] > git config --get commit.template [6ms]
+2025-05-13 16:49:58.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:49:58.955 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:49:58.956 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:49:58.964 [info] > git status -z -uall [4ms]
+2025-05-13 16:50:00.106 [info] > git show --textconv :model.py [6ms]
+2025-05-13 16:50:00.107 [info] > git ls-files --stage -- /home/subin/unet/monet/model.py [2ms]
+2025-05-13 16:50:00.115 [info] > git cat-file -s 4314b07f574b1b2ac568a21d48050724bf8544c1 [2ms]
+2025-05-13 16:50:06.754 [info] > git config --get commit.template [6ms]
+2025-05-13 16:50:06.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:50:06.760 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:50:06.761 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:50:06.768 [info] > git status -z -uall [3ms]
+2025-05-13 16:51:19.091 [info] > git config --get commit.template [1ms]
+2025-05-13 16:51:19.100 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:51:19.104 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:51:19.105 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:51:19.113 [info] > git status -z -uall [4ms]
+2025-05-13 16:51:24.127 [info] > git config --get commit.template [2ms]
+2025-05-13 16:51:24.134 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:51:24.139 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:51:24.141 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 16:51:24.152 [info] > git status -z -uall [6ms]
+2025-05-13 16:51:31.191 [info] > git show --textconv :main.py [7ms]
+2025-05-13 16:51:31.192 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [2ms]
+2025-05-13 16:51:31.197 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [1ms]
+2025-05-13 16:56:34.920 [info] > git config --get commit.template [8ms]
+2025-05-13 16:56:34.922 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 16:56:34.927 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:56:34.929 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:56:34.940 [info] > git status -z -uall [4ms]
+2025-05-13 16:56:39.958 [info] > git config --get commit.template [7ms]
+2025-05-13 16:56:39.960 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:56:39.964 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:56:39.965 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:56:39.972 [info] > git status -z -uall [3ms]
+2025-05-13 16:59:10.075 [info] > git config --get commit.template [6ms]
+2025-05-13 16:59:10.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 16:59:10.080 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 16:59:10.081 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 16:59:10.092 [info] > git status -z -uall [5ms]
+2025-05-13 16:59:49.416 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 16:59:49.416 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:01:08.627 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:01:08.627 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:01:29.086 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:01:29.086 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:02:52.846 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:02:52.846 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:02:56.922 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:02:56.923 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:04:53.480 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:04:53.481 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:04:55.185 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:04:55.185 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:06:11.930 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:06:11.930 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:06:31.882 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:06:31.882 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:06:36.541 [info] > git config --get commit.template [5ms]
+2025-05-13 17:06:36.542 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:06:36.546 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:06:36.547 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:06:36.559 [info] > git status -z -uall [6ms]
+2025-05-13 17:07:08.253 [info] > git config --get commit.template [6ms]
+2025-05-13 17:07:08.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:07:08.259 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:07:08.261 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:07:08.269 [info] > git status -z -uall [3ms]
+2025-05-13 17:07:13.288 [info] > git config --get commit.template [7ms]
+2025-05-13 17:07:13.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:07:13.295 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:07:13.295 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:07:13.304 [info] > git status -z -uall [3ms]
+2025-05-13 17:08:32.719 [info] > git config --get commit.template [6ms]
+2025-05-13 17:08:32.720 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:08:32.726 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:08:32.728 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:08:32.736 [info] > git status -z -uall [4ms]
+2025-05-13 17:08:37.754 [info] > git config --get commit.template [6ms]
+2025-05-13 17:08:37.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 17:08:37.761 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:08:37.762 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:08:37.769 [info] > git status -z -uall [3ms]
+2025-05-13 17:09:06.860 [info] > git config --get commit.template [7ms]
+2025-05-13 17:09:06.861 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:09:06.867 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:09:06.868 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:09:06.879 [info] > git status -z -uall [6ms]
+2025-05-13 17:09:23.588 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:09:23.588 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:09:36.875 [info] > git config --get commit.template [6ms]
+2025-05-13 17:09:36.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:09:36.882 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:09:36.883 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:09:36.891 [info] > git status -z -uall [3ms]
+2025-05-13 17:10:06.895 [info] > git config --get commit.template [6ms]
+2025-05-13 17:10:06.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:10:06.900 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:10:06.901 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:10:06.910 [info] > git status -z -uall [4ms]
+2025-05-13 17:10:36.866 [info] > git config --get commit.template [6ms]
+2025-05-13 17:10:36.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:10:36.871 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:10:36.873 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:10:36.880 [info] > git status -z -uall [3ms]
+2025-05-13 17:11:06.862 [info] > git config --get commit.template [7ms]
+2025-05-13 17:11:06.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:11:06.867 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:11:06.868 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:11:06.875 [info] > git status -z -uall [2ms]
+2025-05-13 17:11:16.654 [info] > git show --textconv :model.py [6ms]
+2025-05-13 17:11:16.654 [info] > git ls-files --stage -- /home/subin/unet/monet/model.py [1ms]
+2025-05-13 17:11:16.660 [info] > git cat-file -s 4314b07f574b1b2ac568a21d48050724bf8544c1 [2ms]
+2025-05-13 17:11:25.354 [info] > git show --textconv :main.py [7ms]
+2025-05-13 17:11:25.355 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [1ms]
+2025-05-13 17:11:25.362 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [2ms]
+2025-05-13 17:11:36.874 [info] > git config --get commit.template [5ms]
+2025-05-13 17:11:36.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:11:36.880 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:11:36.881 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:11:36.891 [info] > git status -z -uall [5ms]
+2025-05-13 17:13:56.650 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:13:56.650 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:16:42.735 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:16:42.735 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:16:48.786 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:16:48.786 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:18:56.345 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:18:56.345 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:20:18.877 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:20:18.877 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:20:34.163 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:20:34.163 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:20:41.586 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:20:41.586 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:20:50.818 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:20:50.818 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:26:52.176 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:26:52.176 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:26:52.813 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:26:52.813 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:26:53.356 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:26:53.356 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:26:54.043 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:26:54.043 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:27:32.368 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:27:32.368 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:27:47.764 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:27:47.764 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:27:48.958 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:27:48.958 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:28:05.450 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:28:05.450 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:28:19.013 [info] > git config --get commit.template [7ms]
+2025-05-13 17:28:19.013 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:28:19.018 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:28:19.018 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:28:19.026 [info] > git status -z -uall [3ms]
+2025-05-13 17:28:19.144 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [16ms]
+2025-05-13 17:28:19.150 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [1ms]
+2025-05-13 17:28:19.285 [info] > git show --textconv :main.py [2ms]
+2025-05-13 17:28:21.998 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:28:21.998 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:28:25.358 [info] > git config --get commit.template [6ms]
+2025-05-13 17:28:25.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 17:28:25.364 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:28:25.366 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:28:25.374 [info] > git status -z -uall [3ms]
+2025-05-13 17:28:36.952 [info] > git config --get commit.template [7ms]
+2025-05-13 17:28:36.954 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 17:28:36.959 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:28:36.961 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:28:36.970 [info] > git status -z -uall [4ms]
+2025-05-13 17:28:38.576 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:28:38.576 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:28:55.136 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:28:55.136 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:29:06.957 [info] > git config --get commit.template [6ms]
+2025-05-13 17:29:06.959 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 17:29:06.963 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:29:06.964 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:29:06.973 [info] > git status -z -uall [4ms]
+2025-05-13 17:29:11.664 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:29:11.664 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:29:26.845 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:29:26.845 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:29:28.187 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:29:28.187 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:29:36.935 [info] > git config --get commit.template [7ms]
+2025-05-13 17:29:36.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:29:36.942 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:29:36.943 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:29:36.951 [info] > git status -z -uall [4ms]
+2025-05-13 17:29:43.683 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:29:43.683 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:29:44.773 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:29:44.773 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:29:59.795 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:29:59.795 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:30:01.345 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:30:01.345 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:30:06.930 [info] > git config --get commit.template [6ms]
+2025-05-13 17:30:06.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:30:06.937 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:30:06.938 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:30:06.947 [info] > git status -z -uall [3ms]
+2025-05-13 17:30:16.316 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:30:16.316 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:30:17.927 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:30:17.927 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:30:34.615 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:30:34.615 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:30:36.948 [info] > git config --get commit.template [6ms]
+2025-05-13 17:30:36.949 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:30:36.954 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:30:36.955 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:30:36.963 [info] > git status -z -uall [4ms]
+2025-05-13 17:30:41.983 [info] > git config --get commit.template [7ms]
+2025-05-13 17:30:41.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:30:41.987 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:30:41.988 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:30:41.996 [info] > git status -z -uall [3ms]
+2025-05-13 17:30:51.012 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-13 17:30:51.012 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:31:03.744 [info] > git config --get commit.template [6ms]
+2025-05-13 17:31:03.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:31:03.749 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:31:03.750 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:31:03.758 [info] > git status -z -uall [4ms]
+2025-05-13 17:31:06.777 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-13 17:31:06.777 [info] fatal: detected dubious ownership in repository at '/home/subin/unet'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/subin/unet
+2025-05-13 17:31:34.068 [info] > git config --get commit.template [6ms]
+2025-05-13 17:31:34.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:31:34.073 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:31:34.074 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2025-05-13 17:31:34.081 [info] > git status -z -uall [3ms]
+2025-05-13 17:32:10.369 [info] > git config --get commit.template [6ms]
+2025-05-13 17:32:10.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:32:10.375 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:32:10.376 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:32:10.389 [info] > git status -z -uall [6ms]
+2025-05-13 17:32:15.403 [info] > git config --get commit.template [4ms]
+2025-05-13 17:32:15.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:32:15.408 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:32:15.410 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:32:15.416 [info] > git status -z -uall [3ms]
+2025-05-13 17:32:36.959 [info] > git config --get commit.template [6ms]
+2025-05-13 17:32:36.960 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:32:36.966 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:32:36.968 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:32:36.977 [info] > git status -z -uall [5ms]
+2025-05-13 17:32:41.995 [info] > git config --get commit.template [7ms]
+2025-05-13 17:32:41.997 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 17:32:42.003 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:32:42.004 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:32:42.016 [info] > git status -z -uall [5ms]
+2025-05-13 17:33:06.953 [info] > git config --get commit.template [7ms]
+2025-05-13 17:33:06.953 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:33:06.959 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:33:06.961 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:33:06.972 [info] > git status -z -uall [5ms]
+2025-05-13 17:33:13.948 [info] > git config --get commit.template [8ms]
+2025-05-13 17:33:13.949 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:33:13.955 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:33:13.957 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:33:13.967 [info] > git status -z -uall [5ms]
+2025-05-13 17:34:04.733 [info] > git config --get commit.template [6ms]
+2025-05-13 17:34:04.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:34:04.738 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:34:04.739 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:34:04.747 [info] > git status -z -uall [3ms]
+2025-05-13 17:34:09.760 [info] > git config --get commit.template [2ms]
+2025-05-13 17:34:09.766 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:34:09.771 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:34:09.772 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:34:09.782 [info] > git status -z -uall [5ms]
+2025-05-13 17:34:56.778 [info] > git config --get commit.template [5ms]
+2025-05-13 17:34:56.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:34:56.783 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:34:56.785 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:34:56.796 [info] > git status -z -uall [5ms]
+2025-05-13 17:35:06.951 [info] > git config --get commit.template [6ms]
+2025-05-13 17:35:06.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:35:06.957 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:35:06.958 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:35:06.966 [info] > git status -z -uall [3ms]
+2025-05-13 17:35:36.934 [info] > git config --get commit.template [6ms]
+2025-05-13 17:35:36.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:35:36.941 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:35:36.943 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:35:36.951 [info] > git status -z -uall [4ms]
+2025-05-13 17:35:59.705 [info] > git config --get commit.template [6ms]
+2025-05-13 17:35:59.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:35:59.712 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:35:59.713 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:35:59.722 [info] > git status -z -uall [5ms]
+2025-05-13 17:36:12.673 [info] > git config --get commit.template [7ms]
+2025-05-13 17:36:12.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:36:12.678 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:36:12.679 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:36:12.691 [info] > git status -z -uall [6ms]
+2025-05-13 17:36:17.714 [info] > git config --get commit.template [7ms]
+2025-05-13 17:36:17.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:36:17.720 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:36:17.721 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:36:17.730 [info] > git status -z -uall [4ms]
+2025-05-13 17:36:36.932 [info] > git config --get commit.template [7ms]
+2025-05-13 17:36:36.933 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:36:36.939 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:36:36.940 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:36:36.949 [info] > git status -z -uall [4ms]
+2025-05-13 17:37:44.679 [info] > git config --get commit.template [6ms]
+2025-05-13 17:37:44.681 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:37:44.688 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:37:44.689 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:37:44.699 [info] > git status -z -uall [4ms]
+2025-05-13 17:37:49.720 [info] > git config --get commit.template [6ms]
+2025-05-13 17:37:49.720 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:37:49.726 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:37:49.728 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:37:49.738 [info] > git status -z -uall [4ms]
+2025-05-13 17:38:07.868 [info] > git config --get commit.template [6ms]
+2025-05-13 17:38:07.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:38:07.875 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:38:07.877 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:38:07.884 [info] > git status -z -uall [2ms]
+2025-05-13 17:38:36.977 [info] > git config --get commit.template [6ms]
+2025-05-13 17:38:36.977 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:38:36.982 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:38:36.983 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:38:36.991 [info] > git status -z -uall [4ms]
+2025-05-13 17:39:37.590 [info] > git config --get commit.template [5ms]
+2025-05-13 17:39:37.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:39:37.595 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:39:37.596 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:39:37.607 [info] > git status -z -uall [6ms]
+2025-05-13 17:39:42.627 [info] > git config --get commit.template [7ms]
+2025-05-13 17:39:42.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:39:42.633 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:39:42.634 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:39:42.644 [info] > git status -z -uall [5ms]
+2025-05-13 17:39:47.663 [info] > git config --get commit.template [6ms]
+2025-05-13 17:39:47.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:39:47.670 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:39:47.670 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2025-05-13 17:39:47.678 [info] > git status -z -uall [4ms]
+2025-05-13 17:40:20.303 [info] > git config --get commit.template [5ms]
+2025-05-13 17:40:20.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:40:20.308 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:40:20.309 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:40:20.318 [info] > git status -z -uall [5ms]
+2025-05-13 17:40:25.338 [info] > git config --get commit.template [8ms]
+2025-05-13 17:40:25.339 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:40:25.345 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:40:25.347 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:40:25.356 [info] > git status -z -uall [4ms]
+2025-05-13 17:42:56.518 [info] > git config --get commit.template [5ms]
+2025-05-13 17:42:56.519 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:42:56.523 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:42:56.523 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:42:56.531 [info] > git status -z -uall [3ms]
+2025-05-13 17:43:04.085 [info] > git config --get commit.template [2ms]
+2025-05-13 17:43:04.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:43:04.097 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:43:04.099 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:43:04.108 [info] > git status -z -uall [4ms]
+2025-05-13 17:43:11.923 [info] > git config --get commit.template [5ms]
+2025-05-13 17:43:11.923 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:43:11.929 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:43:11.931 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:43:11.940 [info] > git status -z -uall [5ms]
+2025-05-13 17:43:36.997 [info] > git config --get commit.template [7ms]
+2025-05-13 17:43:36.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 17:43:37.005 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:43:37.006 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:43:37.014 [info] > git status -z -uall [4ms]
+2025-05-13 17:44:13.694 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-13 17:44:39.819 [info] > git config --get commit.template [7ms]
+2025-05-13 17:44:39.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:44:39.827 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:44:39.828 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:44:39.837 [info] > git status -z -uall [4ms]
+2025-05-13 17:45:05.135 [info] > git config --get commit.template [6ms]
+2025-05-13 17:45:05.136 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:45:05.144 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:45:05.145 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:45:05.157 [info] > git status -z -uall [6ms]
+2025-05-13 17:45:11.442 [info] > git config --get commit.template [7ms]
+2025-05-13 17:45:11.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:45:11.450 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:45:11.452 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:45:11.464 [info] > git status -z -uall [6ms]
+2025-05-13 17:45:37.234 [info] > git config --get commit.template [6ms]
+2025-05-13 17:45:37.235 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:45:37.239 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:45:37.240 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:45:37.247 [info] > git status -z -uall [3ms]
+2025-05-13 17:47:15.145 [info] > git config --get commit.template [5ms]
+2025-05-13 17:47:15.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:47:15.150 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:47:15.151 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:47:15.159 [info] > git status -z -uall [4ms]
+2025-05-13 17:47:28.141 [info] > git config --get commit.template [5ms]
+2025-05-13 17:47:28.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:47:28.147 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:47:28.149 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:47:28.159 [info] > git status -z -uall [4ms]
+2025-05-13 17:47:37.006 [info] > git config --get commit.template [7ms]
+2025-05-13 17:47:37.006 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:47:37.012 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:47:37.013 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:47:37.026 [info] > git status -z -uall [7ms]
+2025-05-13 17:48:23.142 [info] > git config --get commit.template [6ms]
+2025-05-13 17:48:23.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:48:23.148 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:48:23.150 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:48:23.159 [info] > git status -z -uall [4ms]
+2025-05-13 17:48:23.802 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-13 17:48:28.180 [info] > git config --get commit.template [5ms]
+2025-05-13 17:48:28.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:48:28.186 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:48:28.187 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:48:28.196 [info] > git status -z -uall [4ms]
+2025-05-13 17:48:37.058 [info] > git config --get commit.template [7ms]
+2025-05-13 17:48:37.058 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:48:37.064 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:48:37.065 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:48:37.074 [info] > git status -z -uall [4ms]
+2025-05-13 17:49:07.015 [info] > git config --get commit.template [5ms]
+2025-05-13 17:49:07.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:49:07.020 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:49:07.021 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:49:07.029 [info] > git status -z -uall [4ms]
+2025-05-13 17:49:37.027 [info] > git config --get commit.template [9ms]
+2025-05-13 17:49:37.029 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:49:37.035 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:49:37.037 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:49:37.047 [info] > git status -z -uall [4ms]
+2025-05-13 17:50:07.036 [info] > git config --get commit.template [7ms]
+2025-05-13 17:50:07.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:50:07.043 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:50:07.044 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:50:07.055 [info] > git status -z -uall [4ms]
+2025-05-13 17:51:06.865 [info] > git config --get commit.template [6ms]
+2025-05-13 17:51:06.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:51:06.870 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:51:06.871 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:51:06.880 [info] > git status -z -uall [4ms]
+2025-05-13 17:51:11.902 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:51:11.903 [info] > git config --get commit.template [7ms]
+2025-05-13 17:51:11.908 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:51:11.909 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:51:11.921 [info] > git status -z -uall [6ms]
+2025-05-13 17:51:37.028 [info] > git config --get commit.template [5ms]
+2025-05-13 17:51:37.028 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:51:37.034 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:51:37.036 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:51:37.045 [info] > git status -z -uall [4ms]
+2025-05-13 17:52:51.469 [info] > git config --get commit.template [6ms]
+2025-05-13 17:52:51.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:52:51.476 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:52:51.477 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:52:51.486 [info] > git status -z -uall [4ms]
+2025-05-13 17:52:56.507 [info] > git config --get commit.template [7ms]
+2025-05-13 17:52:56.509 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:52:56.514 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:52:56.516 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:52:56.525 [info] > git status -z -uall [4ms]
+2025-05-13 17:53:07.035 [info] > git config --get commit.template [5ms]
+2025-05-13 17:53:07.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:53:07.042 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:53:07.044 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:53:07.057 [info] > git status -z -uall [7ms]
+2025-05-13 17:53:37.038 [info] > git config --get commit.template [6ms]
+2025-05-13 17:53:37.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:53:37.044 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:53:37.046 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:53:37.056 [info] > git status -z -uall [5ms]
+2025-05-13 17:54:46.021 [info] > git config --get commit.template [8ms]
+2025-05-13 17:54:46.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:54:46.029 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:54:46.031 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:54:46.041 [info] > git status -z -uall [4ms]
+2025-05-13 17:55:15.269 [info] > git config --get commit.template [6ms]
+2025-05-13 17:55:15.270 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:55:15.275 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:55:15.276 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:55:15.284 [info] > git status -z -uall [4ms]
+2025-05-13 17:55:25.276 [info] > git config --get commit.template [7ms]
+2025-05-13 17:55:25.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:55:25.283 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:55:25.284 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:55:25.294 [info] > git status -z -uall [4ms]
+2025-05-13 17:55:37.040 [info] > git config --get commit.template [7ms]
+2025-05-13 17:55:37.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:55:37.047 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:55:37.048 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:55:37.059 [info] > git status -z -uall [4ms]
+2025-05-13 17:56:18.733 [info] > git config --get commit.template [6ms]
+2025-05-13 17:56:18.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:56:18.739 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:56:18.740 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:56:18.752 [info] > git status -z -uall [6ms]
+2025-05-13 17:56:22.869 [info] > git show --textconv :main.py [9ms]
+2025-05-13 17:56:22.870 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [2ms]
+2025-05-13 17:56:22.877 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [2ms]
+2025-05-13 17:56:24.132 [info] > git show --textconv :model.py [7ms]
+2025-05-13 17:56:24.133 [info] > git ls-files --stage -- /home/subin/unet/monet/model.py [2ms]
+2025-05-13 17:56:24.140 [info] > git cat-file -s 4314b07f574b1b2ac568a21d48050724bf8544c1 [2ms]
+2025-05-13 17:56:33.622 [info] > git show --textconv :datasets.py [7ms]
+2025-05-13 17:56:33.623 [info] > git ls-files --stage -- /home/subin/unet/monet/datasets.py [1ms]
+2025-05-13 17:56:33.630 [info] > git cat-file -s 3ecd2b85df21ff7f8a63197ee16b515105e03f02 [1ms]
+2025-05-13 17:56:37.063 [info] > git config --get commit.template [8ms]
+2025-05-13 17:56:37.065 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-13 17:56:37.071 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:56:37.072 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:56:37.082 [info] > git status -z -uall [5ms]
+2025-05-13 17:56:47.632 [info] > git show --textconv :main.py [8ms]
+2025-05-13 17:56:47.633 [info] > git ls-files --stage -- /home/subin/unet/monet/main.py [2ms]
+2025-05-13 17:56:47.642 [info] > git cat-file -s 614f75db6124e56a74f03367397f81a4aa8e333b [3ms]
+2025-05-13 17:56:48.663 [info] > git show --textconv :datasets.py [9ms]
+2025-05-13 17:56:48.663 [info] > git ls-files --stage -- /home/subin/unet/monet/datasets.py [2ms]
+2025-05-13 17:56:48.670 [info] > git cat-file -s 3ecd2b85df21ff7f8a63197ee16b515105e03f02 [2ms]
+2025-05-13 17:57:07.049 [info] > git config --get commit.template [7ms]
+2025-05-13 17:57:07.051 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:57:07.057 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:57:07.059 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:57:07.067 [info] > git status -z -uall [4ms]
+2025-05-13 17:57:32.071 [info] > git show --textconv :config.py [7ms]
+2025-05-13 17:57:32.072 [info] > git ls-files --stage -- /home/subin/unet/monet/config.py [2ms]
+2025-05-13 17:57:32.078 [info] > git cat-file -s 6fad2b8146241b3842a107280075da803b8c2fc6 [1ms]
+2025-05-13 17:57:37.103 [info] > git config --get commit.template [6ms]
+2025-05-13 17:57:37.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:57:37.109 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:57:37.110 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:57:37.118 [info] > git status -z -uall [4ms]
+2025-05-13 17:58:25.680 [info] > git config --get commit.template [5ms]
+2025-05-13 17:58:25.681 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:58:25.686 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:58:25.688 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-05-13 17:58:25.697 [info] > git status -z -uall [5ms]
+2025-05-13 17:58:28.057 [info] > git show --textconv :datasets.py [7ms]
+2025-05-13 17:58:28.058 [info] > git ls-files --stage -- /home/subin/unet/monet/datasets.py [1ms]
+2025-05-13 17:58:28.066 [info] > git cat-file -s 3ecd2b85df21ff7f8a63197ee16b515105e03f02 [2ms]
+2025-05-13 17:58:37.049 [info] > git config --get commit.template [6ms]
+2025-05-13 17:58:37.049 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-13 17:58:37.055 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:58:37.056 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:58:37.067 [info] > git status -z -uall [5ms]
+2025-05-13 17:59:15.253 [info] > git config --get commit.template [5ms]
+2025-05-13 17:59:15.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:59:15.258 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:59:15.259 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:59:15.267 [info] > git status -z -uall [4ms]
+2025-05-13 17:59:37.057 [info] > git config --get commit.template [5ms]
+2025-05-13 17:59:37.058 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-13 17:59:37.062 [warning] ENOENT: no such file or directory, open '/home/subin/unet/monet/.git/refs/remotes/origin/master'
+2025-05-13 17:59:37.063 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-13 17:59:37.071 [info] > git status -z -uall [4ms]

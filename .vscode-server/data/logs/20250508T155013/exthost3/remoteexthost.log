@@ -1,0 +1,16 @@
+2025-05-08 16:02:10.527 [info] Extension host with pid 24812 started
+2025-05-08 16:02:10.535 [info] Lock '/home/subin/.vscode-server/data/User/workspaceStorage/ff7d5991f223c00b01997c62f7bcc586/vscode.lock': Lock acquired.
+2025-05-08 16:02:10.617 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-05-08 16:02:10.796 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-08 16:02:11.113 [info] Eager extensions activated
+2025-05-08 16:02:11.114 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 16:02:11.114 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-08 16:02:17.453 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-05-08 16:02:17.610 [warning] Using default string since no string found in i18n bundle that has the key: Log level: {0}
+2025-05-08 16:02:17.613 [warning] Using default string since no string found in i18n bundle that has the key: Validating found git in: "{0}"
+2025-05-08 16:02:17.650 [warning] Using default string since no string found in i18n bundle that has the key: Using git "{0}" from "{1}"
+2025-05-08 16:02:30.953 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-08 16:08:17.361 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-05-08 17:00:28.999 [info] Extension host terminating: received terminate message from renderer
+2025-05-08 17:00:29.000 [info] Lock '/home/subin/.vscode-server/data/User/workspaceStorage/ff7d5991f223c00b01997c62f7bcc586/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-05-08 17:00:29.027 [info] Extension host with pid 24812 exiting with code 0
